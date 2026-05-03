@@ -25,7 +25,7 @@ A comprehensive collection of Computer Vision projects, ranging from classic CNN
 - **Concept:** Real-time parking occupancy monitoring. Features a custom UI for manual slot marking (ROI) and automated detection using geometric point-in-polygon validation.
 
 ### 6. [YOLO People Counter & Tracker](./yolo-people-tracker)
-- **Tech:** OLO11 Tracking API, OpenCV, Deep Learning.
+- **Tech:** YOLO11 Tracking API, OpenCV, Deep Learning.
 - **Concept:** A tripwire-based counting system. It uses unique ID tracking to monitor movements and counts individuals crossing a virtual boundary in both directions.
 
 ---
