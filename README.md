@@ -20,6 +20,14 @@ A comprehensive collection of Computer Vision projects, ranging from classic CNN
 - **Tech:** Convolutional Neural Networks, PyTorch/TensorFlow.
 - **Concept:** The fundamentals of computer vision. Classic approach to image classification with data augmentation and performance metrics.
 
+### 5. [YOLO Smart Parking Slot Detector](./yolo-parking-slot-detector)
+- **Tech:** YOLO11, OpenCV, Python, Pickle.
+- **Concept:** Real-time parking occupancy monitoring. Features a custom UI for manual slot marking (ROI) and automated detection using geometric point-in-polygon validation.
+
+### 6. [YOLO People Counter & Tracker](./yolo-people-tracker)
+- **Tech:** OLO11 Tracking API, OpenCV, Deep Learning.
+- **Concept:** A tripwire-based counting system. It uses unique ID tracking to monitor movements and counts individuals crossing a virtual boundary in both directions.
+
 ---
 
 ## 🛠️ Global Setup
