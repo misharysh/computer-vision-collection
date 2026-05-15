@@ -14,9 +14,8 @@ Generates a high-resolution image directly from a text prompt using standard U-N
 
 *   **Prompt:** `"glass of red wine on a wrought iron table, studio lighting, high resolution"`
 *   **Output Example:**
-    ```markdown
+   
     ![Red Wine](./content/red_wine.png)
-    ```
 
 ## 2. ControlNet (Canny Edges)
 Applies structural constraints to the generation process. It uses a reference image to extract edges, forcing the model to follow the specific composition of the source object.
@@ -24,12 +23,12 @@ Applies structural constraints to the generation process. It uses a reference im
 *   **Prompt:** `"A silhouette of a bear made of bright flowers, texture of tulips and roses, hyperrealistic, 4k"`
 *   **Conditioning Model:** `lllyasviel/sd-controlnet-canny`
 *   **Output Example:**
-    ```markdown
+    
 
     | Source Image | Generated Output |
     |--------------|------------------|
     | ![Bear Source](./content/bear.jpg) | ![Polar Bear](./content/polar_bear.png) |
-    ```
+    
 
 ## 3. LoRA (Low-Rank Adaptation) Stylization
 Leverages a lightweight parameter adapter to inject a specific artistic style into the frozen base model without high computational overhead.
@@ -37,9 +36,9 @@ Leverages a lightweight parameter adapter to inject a specific artistic style in
 *   **Prompt:** `"a cute fluffy cat, Paper_Cutting style, vibrant colors, soft studio lighting, high detail"`
 *   **LoRA Weights:** `Kontext-Style/Paper_Cutting_lora`
 *   **Output Example:**
-    ```markdown
+    
     ![Papercut Cat](./content/lora_papercut_cat.png)
-    ```
+    
 
 ---
 
