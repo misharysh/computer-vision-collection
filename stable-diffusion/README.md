@@ -3,7 +3,6 @@
 This subproject demonstrates text-to-image generation capabilities using **Stable Diffusion v1.5** via the Hugging Face `diffusers` library. It covers standard inference, structural guidance using ControlNet, and stylistic fine-tuning via LoRA adapters.
 
 ## Project Structure
-[README.md](../unet-brain-tumor-segmentation/README.md)
 *   `stable_diffusion_cpu.ipynb` – Basic text-to-image generation with step-by-step latent tracking.
 *   `stable_diffusion_controlNet_cpu.ipynb` – Image-to-image generation preserving geometry using Canny edge detection.
 *   `stable_diffusion_lora_cpu.ipynb` – Fine-tuned generation using low-rank adaptation for stylized outputs.
@@ -16,7 +15,7 @@ Generates a high-resolution image directly from a text prompt using standard U-N
 *   **Prompt:** `"glass of red wine on a wrought iron table, studio lighting, high resolution"`
 *   **Output Example:**
     ```markdown
-    ![Red Wine](content/red_wine.png)
+    ![Red Wine](./content/red_wine.png)
     ```
 
 ## 2. ControlNet (Canny Edges)
@@ -29,7 +28,7 @@ Applies structural constraints to the generation process. It uses a reference im
 
     | Source Image | Generated Output |
     |--------------|------------------|
-    | ![Bear Source](content/bear.jpg) | ![Polar Bear](content/polar_bear.png) |
+    | ![Bear Source](./content/bear.jpg) | ![Polar Bear](./content/polar_bear.png) |
     ```
 
 ## 3. LoRA (Low-Rank Adaptation) Stylization
@@ -39,7 +38,7 @@ Leverages a lightweight parameter adapter to inject a specific artistic style in
 *   **LoRA Weights:** `Kontext-Style/Paper_Cutting_lora`
 *   **Output Example:**
     ```markdown
-    ![Papercut Cat](content/lora_papercut_cat.png)
+    ![Papercut Cat](./content/lora_papercut_cat.png)
     ```
 
 ---

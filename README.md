@@ -28,6 +28,10 @@ A comprehensive collection of Computer Vision projects, ranging from classic CNN
 - **Tech:** YOLO11 Tracking API, OpenCV, Deep Learning.
 - **Concept:** A tripwire-based counting system. It uses unique ID tracking to monitor movements and counts individuals crossing a virtual boundary in both directions.
 
+### 7. [Stable Diffusion Experiments](./stable-diffusion)
+- **Tech:** Stable Diffusion v1.5, ControlNet (Canny), LoRA Adapters, Hugging Face Diffusers, PyTorch.
+- **Concept:** Exploration of generative AI pipelines. Features text-to-image synthesis, structural control via edge detection, and style injection using lightweight adapter fine-tuning.
+
 ---
 
 ## 🛠️ Global Setup
