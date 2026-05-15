@@ -32,7 +32,7 @@ A comprehensive collection of Computer Vision projects, ranging from classic CNN
 - **Tech:** Stable Diffusion v1.5, ControlNet (Canny), LoRA Adapters, Hugging Face Diffusers, PyTorch.
 - **Concept:** Exploration of generative AI pipelines. Features text-to-image synthesis, structural control via edge detection, and style injection using lightweight adapter fine-tuning.
 
-### 8. [Camera Ego-Motion Compensation & Trajectory Prediction](./yolo-motion-prediction)
+### 8. [Camera Ego-Motion Compensation & Trajectory Prediction](./slam)
 - **Tech:** YOLO11, BYTETracker, OpenCV (Lucas-Kanade Optical Flow), NumPy.
 - **Concept:** Advanced tracking system that filters out camera movements using optical flow. Calculates the true absolute velocity of targets to predict and plot their trajectory vectors 30 frames into the future.
 
